@@ -5,8 +5,6 @@ x
 Happ/src/main/java/com/shalan/jetpackcomposesample/ui/model/SampleData.kt,8/6/8650b2ec4303038edcf45e03bf5a130dc9d5d54b
 u
 Eapp/src/main/java/com/shalan/jetpackcomposesample/ui/model/Message.kt,c/e/ce704fe7352d911f6a8884d54152633b83156f7c
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 ‚
 Rapp/src/main/java/com/shalan/jetpackcomposesample/composecodelap/ComposeCodeLap.kt,4/e/4ef4e444e1b13b296a34f2ff648822f8bd3322f3
 q
