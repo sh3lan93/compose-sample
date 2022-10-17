@@ -13,17 +13,27 @@
         android:theme="@style/Theme.JetPackComposeSample"
         tools:targetApi="31">
         <activity
-            android:name=".composecodelap.ComposeCodeLap"
-            android:exported="true"
-            android:label="@string/title_activity_compose_code_lap"
-            android:theme="@style/Theme.JetPackComposeSample">
-
+            android:name=".composelayout.BasicComposeLayoutActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".composecodelap.ComposeCodeLap"
+            android:exported="true"
+            android:label="@string/title_activity_compose_code_lap"
+            android:theme="@style/Theme.JetPackComposeSample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
